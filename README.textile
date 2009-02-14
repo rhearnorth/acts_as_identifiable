@@ -1,0 +1,6 @@
+h1. Introduction
+
+This is a type of full-text search to identify a model by searching through one field.
+
+As long as it's undocumented (sorry for that), you'll have to dig into the unit test.
+
