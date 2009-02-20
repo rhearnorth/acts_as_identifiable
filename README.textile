@@ -17,4 +17,6 @@ And this is what it will do:
 
 I just realize this is hard to explain!
 
-Please rather refer to the <a href="http://github.com/funkensturm/acts_as_identifiable/blob/master/test/acts_as_identifiable_test.rb">Unit Test</a> to see what I'm takling about ;)
+Please rather refer to the <a href="http://github.com/funkensturm/acts_as_identifiable/blob/master/test/acts_as_identifiable_test.rb">Unit Test</a> to see what I'm takling about.
+
+Actually, even better, check out the demo application at <a href="http://github.com/funkensturm/funkengallery_demo">www.github.com/funkensturm/funkengallery_demo</a> :)
