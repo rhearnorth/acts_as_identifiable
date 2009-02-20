@@ -1,6 +1,20 @@
 h1. Introduction
 
-This is a type of full-text search to identify a model by searching through one field.
+Imagine something specific as this now. You have a list of users and you want to identify one of them without having to enter the exact 100% same user name.
 
-As long as it's undocumented (sorry for that), you'll have to dig into the unit test.
+So you use this small acts_as_identifiable plugin to work with your model:
 
+  class User < ActiveRecord::Base
+    acts_as_identifiable :column => 'my_username'
+  end
+
+And this is what it will do:
+
+# Search for an exact match
+# Search for an estimate match
+## If only one user matched, return it
+## If not, the user will have to provide more data
+
+I just realize this is hard to explain!
+
+Please rather refer to the <a href="http://github.com/funkensturm/acts_as_identifiable/blob/master/test/acts_as_identifiable_test.rb">Unit Test</a> to see what I'm takling about ;)

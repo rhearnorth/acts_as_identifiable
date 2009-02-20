@@ -20,7 +20,6 @@ module ActiveRecord
       module ClassMethods        
         # Please refer to README for more information about this plugin.
         #
-        #
         # Configuration options are:
         # * <tt>column</tt> - specifies a column name to use for the fulltext search (default: +username+)
         def acts_as_identifiable(options = {})

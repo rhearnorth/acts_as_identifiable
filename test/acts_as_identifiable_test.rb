@@ -6,7 +6,7 @@
 # 2. Go to "vendor/plugins/acts_as_identifiable/test" and run "rake test" in a terminal window
 # 3. Run "rake test:plugins" in a terminal window to execute tests of all plugins
 #
-# For further information see http://blog.funkensturm.de/ruby-on-rails-plugins
+# For further information see http://blog.funkensturm.de/downloads
 
 require 'test/unit'
 
@@ -101,9 +101,5 @@ class UserTest < Test::Unit::TestCase
     assert !User.identify('xx') 
     assert_equal 6, User.identify('      xxx       ') 
   end
-  
-  
-  
-  
-  
+
 end
